@@ -19,4 +19,12 @@ any way though we will learn how to do that in future chapters.
 
 ## django rest framework
 
-    
+pip3 install djangorestframework -  this will install the rest framework and dont forget to list this app in your settings so as to inform our django application of the third party framework.
+
+Ultimately, our web API will expose a single endpoint that lists out all books in JSON. To do this,
+we will need a new URL route, a new view, and a new serializer file
+
+## [apis](./apis/)
+
+this application we have created just for the purpose of creating apis, and so we wont be using the app's models since we wont be creating any new data.
+
