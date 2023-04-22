@@ -28,3 +28,13 @@ we will need a new URL route, a new view, and a new serializer file
 
 this application we have created just for the purpose of creating apis, and so we wont be using the app's models since we wont be creating any new data.
 
+In traditional Django views are used to customize what data to send to the templates. Django
+REST Framework views are similar except the end result is serialized data in JSON format, not
+the content for a web page! Django REST Framework views rely on a model, a URL, and a new
+file called a serializer
+
+## serializers
+
+A serializer33 translates complex data like querysets and model instances into a format that is
+easy to consume over the internet, typically JSON. It is also possible to “deserialize” data - the same process in reverse, whereby JSON data is first validated and then transformed into a
+dictionary.
